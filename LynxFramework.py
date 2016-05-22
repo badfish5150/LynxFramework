@@ -23,7 +23,14 @@ class Payload:
         name = raw_input('name : ')
         self.name = name;
         self.payloadOption()
+        if name == "backdoor":
+            self.backdoorparser();
         Lynx.cmd()
+    def backdoorparser(self):
+        url = "https://lynxframework.com/API/?cmd=passcode"
+        html = urllib2.urlopen(url).read()
+        print "[x] You passcode : " + html
+        print "[x] https://lynxframework.com/panel"
     def payloadOption(self):
         if self.name != '':
             users_rhost = raw_input('RHOST : ')
@@ -95,6 +102,7 @@ class LynxFramework:
 
 
 print(Fore.RED + "[!]" + Style.RESET_ALL +  " Welcome to LynxFramework")
-Lynx = LynxFramework()
-os.system('clear')
-Lynx.cmd()
+#Lynx = LynxFramework()
+#os.system('clear')
+#Lynx.cmd()
+print("Please wait we update Lynxframework read : https://lynxframework.com");
