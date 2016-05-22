@@ -1,4 +1,4 @@
-<img src="http://s32.postimg.org/klkb35lx1/logo_modal.png" width="200px">
+<img src="http://s32.postimg.org/klkb35lx1/logo_modal.png" width="300px">
 
 ## What is LynxFramework ?
 
