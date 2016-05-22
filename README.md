@@ -1,4 +1,4 @@
-![Backdoor chrome](http://s32.postimg.org/klkb35lx1/logo_modal.png)
+<img src="http://s32.postimg.org/klkb35lx1/logo_modal.png" width="200px">
 
 ## What is LynxFramework ?
 
